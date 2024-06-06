@@ -1,4 +1,0 @@
-application:
-  host: "127.0.0.1"
-database:
-  url_db: "postgres://postgres:umWj501XgkTrftM@localhost:5432"

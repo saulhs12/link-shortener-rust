@@ -1,4 +1,0 @@
-application:
-  host: "0.0.0.0"
-database:
-  url_db: "postgres://postgres:umWj501XgkTrftM@link-shortener-app-db.internal:5433"
