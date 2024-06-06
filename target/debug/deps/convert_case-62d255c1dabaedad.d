@@ -1,9 +1,0 @@
-/Users/saulherrerasaavedra/Documents/PROGRAMACION/link_shortener/target/debug/deps/libconvert_case-62d255c1dabaedad.rmeta: /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/lib.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/case.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/converter.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/pattern.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/segmentation.rs
-
-/Users/saulherrerasaavedra/Documents/PROGRAMACION/link_shortener/target/debug/deps/convert_case-62d255c1dabaedad.d: /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/lib.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/case.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/converter.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/pattern.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/segmentation.rs
-
-/Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/lib.rs:
-/Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/case.rs:
-/Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/converter.rs:
-/Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/pattern.rs:
-/Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/segmentation.rs:

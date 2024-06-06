@@ -1,1 +1,0 @@
-fn(axum::extract::State<{type error}>, axum::extract::Path<std::string::String>) -> impl std::future::Future<Output = std::result::Result<axum::http::Response<axum::body::Body>, (axum::http::StatusCode, std::string::String)>> {api::handlers::redirect::redirect}

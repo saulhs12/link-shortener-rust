@@ -1,1 +1,0 @@
-axum::middleware::FromFn<impl std::future::Future<Output = std::result::Result<impl axum::response::IntoResponse, (axum::http::StatusCode, std::string::String)>>, std::sync::Arc<state::ApplicationState>, axum::routing::Route, _>

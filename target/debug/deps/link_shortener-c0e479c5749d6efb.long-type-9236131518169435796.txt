@@ -1,1 +1,0 @@
-fn(axum::extract::State<std::sync::Arc<state::ApplicationState>>) -> impl std::future::Future<Output = std::result::Result<axum::Json<std::string::String>, anyhow::Error>> {api::v1::health_handler}

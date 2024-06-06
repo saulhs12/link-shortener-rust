@@ -1,1 +1,0 @@
-fn(axum::extract::State<std::sync::Arc<state::ApplicationState>>, axum::extract::Path<std::string::String>, axum::Json<{type error}>) -> impl std::future::Future<Output = std::result::Result<axum::Json<{type error}>, (axum::http::StatusCode, std::string::String)>> {api::handlers::redirect::update_link}
