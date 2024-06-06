@@ -9,3 +9,7 @@ docker-compose.yml
 
 # Ignorar archivo fly.toml
 fly.toml
+
+.env
+.sqlx/
+migrations/
