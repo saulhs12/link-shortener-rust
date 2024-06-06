@@ -2,6 +2,7 @@
 target/
 
 # Ignorar directorio configuration y todo su contenido
+configuration/
 
 # Ignorar archivo docker-compose.yml
 docker-compose.yml
