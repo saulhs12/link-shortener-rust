@@ -9,6 +9,7 @@ use tracing::Level;
 use tracing_subscriber::fmt;
 use tracing_subscriber::layer::SubscriberExt;
 use tracing_subscriber::util::SubscriberInitExt;
+use crate::settings;
 
 use crate::settings::Settings;
 use crate::state::ApplicationState;
@@ -24,6 +25,7 @@ pub async fn start_server(settings: &Settings) -> anyhow::Result<()> {
         .init();
 
     let db_url = &settings.database.url_db.clone();
+    
     tracing::debug!("Start DB conection");
     let pool: Pool<Postgres> = PgPoolOptions::new()
         .max_connections(20)

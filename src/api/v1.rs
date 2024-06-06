@@ -9,18 +9,22 @@ use axum::routing::{get, patch, post};
 use axum::{middleware,  Router};
 use axum_prometheus::PrometheusMetricLayer;
 use std::sync::Arc;
-use tower_http::cors::{CorsLayer, Any};
+use tower_http::cors::{CorsLayer, AllowOrigin};
 
 use tower_http::trace::TraceLayer;
+
 
 pub fn router(state: Arc<ApplicationState>) -> Router {
     let (prometheus_layer, metrics_handle) = PrometheusMetricLayer::pair();
     let cors = CorsLayer::new()
-        .allow_origin(Any)  // Allow any origin
+        .allow_origin(AllowOrigin::list(vec![
+            "https://link-shortener-saul-rust.vercel.app".parse().unwrap(),  // Permitir el origen específico
+        ]))
         .allow_methods(vec![Method::GET, Method::POST, Method::PATCH])
         .allow_headers(vec![
-            "Content-Type".parse().unwrap(),  // Allow Content-Type header
-        ]);
+            "Content-Type".parse().unwrap(),  // Permitir el header Content-Type
+        ])
+        .allow_credentials(true);
     Router::new()
         
         .route(
