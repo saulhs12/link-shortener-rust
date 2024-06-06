@@ -1,4 +1,11 @@
-target
-configuration
+# Ignorar directorio target y todo su contenido
+target/
+
+# Ignorar directorio configuration y todo su contenido
+configuration/
+
+# Ignorar archivo docker-compose.yml
 docker-compose.yml
+
+# Ignorar archivo fly.toml
 fly.toml
