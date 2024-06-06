@@ -11,5 +11,4 @@ docker-compose.yml
 fly.toml
 
 .env
-.sqlx/
-migrations/
+.sqlx
