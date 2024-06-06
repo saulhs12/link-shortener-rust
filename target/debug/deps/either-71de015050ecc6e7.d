@@ -1,0 +1,9 @@
+/Users/saulherrerasaavedra/Documents/PROGRAMACION/link_shortener/target/debug/deps/libeither-71de015050ecc6e7.rmeta: /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/lib.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/serde_untagged.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/serde_untagged_optional.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/iterator.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/into_either.rs
+
+/Users/saulherrerasaavedra/Documents/PROGRAMACION/link_shortener/target/debug/deps/either-71de015050ecc6e7.d: /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/lib.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/serde_untagged.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/serde_untagged_optional.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/iterator.rs /Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/into_either.rs
+
+/Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/lib.rs:
+/Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/serde_untagged.rs:
+/Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/serde_untagged_optional.rs:
+/Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/iterator.rs:
+/Users/saulherrerasaavedra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.12.0/src/into_either.rs:

@@ -1,0 +1,29 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "\n                with inserted_link as (\n                insert into links(id, target_url)\n                values ($1, $2)\n                returning id,target_url)\n                select id,target_url from inserted_link\n                ",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 1,
+        "name": "target_url",
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Text",
+        "Text"
+      ]
+    },
+    "nullable": [
+      false,
+      false
+    ]
+  },
+  "hash": "e2adaa7c09041c10a26b4fe7059add50d5fe33f3bbd4d162afb6c378c9de3b19"
+}

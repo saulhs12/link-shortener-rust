@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  db:
+    container_name: db_link_shortener
+    image: postgres:15-alpine3.16
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=link_shortener_db
+    ports:
+      - '5432:5432'
+    volumes:
+      - db:/var/lib/postgresql/data
+  link_shortener:
+    image: link_shortener
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: link_shortener
+    depends_on:
+      - db
+    ports:
+      - '8000:8000'
+
+volumes:
+  db:
+    driver: local

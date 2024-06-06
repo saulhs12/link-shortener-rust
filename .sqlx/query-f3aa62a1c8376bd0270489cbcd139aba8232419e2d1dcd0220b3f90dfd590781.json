@@ -1,0 +1,29 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "\n                with updated_link as (\n                update links set target_url = $1 where id = $2\n                returning id,target_url\n                )\n                select id, target_url\n                from updated_link\n                ",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 1,
+        "name": "target_url",
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Text",
+        "Text"
+      ]
+    },
+    "nullable": [
+      false,
+      false
+    ]
+  },
+  "hash": "f3aa62a1c8376bd0270489cbcd139aba8232419e2d1dcd0220b3f90dfd590781"
+}

@@ -1,0 +1,1 @@
+fn(State<ApplicationState>, axum::extract::Path<std::string::String>) -> impl Future<Output = Result<axum::http::Response<axum::body::Body>, (axum::http::StatusCode, std::string::String)>> {redirect}

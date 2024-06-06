@@ -1,0 +1,16 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "\n                insert into link_statistics(link_id,referer,user_agent)\n                values($1,$2,$3)\n                ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Text",
+        "Text",
+        "Text"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "278aae2dec8760306373ce373facd9c971988d8c802207941031db813f1ae22e"
+}
