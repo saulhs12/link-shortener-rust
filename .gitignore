@@ -1,4 +1,4 @@
-/target
-/configuration
-/docker-compose.yml
+target
+configuration
+docker-compose.yml
 fly.toml
