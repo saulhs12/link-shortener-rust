@@ -3,7 +3,7 @@ use crate::api::handlers::redirect::{create_link, redirect, update_link};
 use crate::api::handlers::statistics::get_link_statistics;
 use crate::state::ApplicationState;
 use axum::extract::State;
-use axum::http::{HeaderValue, Method, StatusCode};
+use axum::http::{ Method, StatusCode};
 use axum::response::IntoResponse;
 use axum::routing::{get, patch, post};
 use axum::{middleware,  Router};
@@ -16,8 +16,11 @@ use tower_http::trace::TraceLayer;
 pub fn router(state: Arc<ApplicationState>) -> Router {
     let (prometheus_layer, metrics_handle) = PrometheusMetricLayer::pair();
     let cors = CorsLayer::new()
-    .allow_origin("http://localhost:3000".parse::<HeaderValue>().unwrap())
-    .allow_methods(vec![Method::GET, Method::POST]);
+        .allow_origin(Any)  // Allow any origin
+        .allow_methods(vec![Method::GET, Method::POST, Method::PATCH])
+        .allow_headers(vec![
+            "Content-Type".parse().unwrap(),  // Allow Content-Type header
+        ]);
     Router::new()
         
         .route(
